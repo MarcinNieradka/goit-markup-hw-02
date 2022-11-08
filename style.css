@@ -1,0 +1,178 @@
+:root {
+    --font-main-color: #212121;
+    --font-secondary-color: #757575;
+    --hover-link-color: #2196f3;
+    --btn-hover-bg-color: #2196f3;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --bg-dark-color: #2f303a;
+    --bg-medium-color: #f5f4fa;
+    --font-transparent: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Roboto", sans-serif;
+    color: var(--font-main-color);
+}
+
+/* Background colors */
+.upper-main {
+    background-color: var(--bg-dark-color);
+}
+
+.team {
+    background-color: var(--bg-medium-color);
+}
+
+footer {
+    background-color: var(--bg-dark-color);
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: var(--font-secondary-color);
+}
+
+.info-link.transparent {
+    color: var(--font-transparent);
+}
+
+/* Hover and focus */
+
+.filter-btn:hover,
+.filter-btn:focus,
+.order-btn:hover,
+.order-btn:focus {
+    background-color: var(--btn-hover-bg-color);
+    color: var(--color-white);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.info-link:hover,
+.info-link:focus {
+    color: var(--hover-link-color);
+}
+
+/* Font sizes and weight*/
+
+.webstudio {
+    color: var(--hover-link-color);
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.webstudio span {
+    color: var(--color-black);
+}
+
+.webstudio.foot span {
+    color: var(--color-white);
+}
+
+nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+nav a {
+    color: var(--font-main-color);
+}
+
+h1 {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+.order-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.about p {
+    color: var(--font-secondary-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+.team p {
+    color: var(--font-secondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+address {
+    font-style: normal;
+}
+
+.where-to {
+    color: var(--color-white);
+}
+
+/* Font sizes and weight - PORTFOLIO*/
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+.portfolio h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio p {
+    color: var(--font-secondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
