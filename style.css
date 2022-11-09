@@ -92,6 +92,7 @@ nav a {
 }
 
 h1 {
+    text-transform: uppercase;
     color: var(--color-white);
     font-weight: 900;
     font-size: 44px;
