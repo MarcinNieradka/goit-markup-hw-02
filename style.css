@@ -71,11 +71,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.studio-span {
+.studio-span-up {
   color: var(--color-black);
 }
 
-.webstudio.foot .studio-span {
+.studio-span-dwn {
   color: var(--color-white);
 }
 
