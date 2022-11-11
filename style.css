@@ -1,7 +1,9 @@
+/* Do pliku dodaję komentarze po angielsku i różne dodatkowe opisy, żeby później po ponownym otworzeniu pamiętać czemu pewne rzeczy są komentarzach */
+
 :root {
     --font-main-color: #212121;
     --font-secondary-color: #757575;
-    --hover-link-color: #2196f3;
+    --font-hover-link-color: #2196f3;
     --btn-hover-bg-color: #2196f3;
     --color-white: #ffffff;
     --color-black: #000000;
@@ -14,11 +16,9 @@ body {
     /* font-family: "Raleway", sans-serif; */
     font-family: "Roboto", "Raleway", sans-serif;
     color: var(--font-main-color);
-    font-weight: 100;
-    /* font-size: 10px; */
 }
 
-/* Background colors */
+/* =====================================  Background colors */
 .upper-main {
     background-color: var(--bg-dark-color);
 }
@@ -42,7 +42,7 @@ a {
     color: var(--font-transparent);
 }
 
-/* Hover and focus */
+/* ===================================== Hover and focus */
 
 .filter-btn:hover,
 .filter-btn:focus,
@@ -57,18 +57,18 @@ a {
 .nav-link:focus,
 .info-link:hover,
 .info-link:focus {
-    color: var(--hover-link-color);
+    color: var(--font-hover-link-color);
 }
 
-/* Font sizes and weight*/
+/* ===================================== Font sizes and weight */
 
 .webstudio {
-    color: var(--hover-link-color);
+    color: var(--font-hover-link-color);
     font-family: "Raleway";
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; - only this weight is loaded with Google Fonts, therefore there is no need to specify it*/
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2em;
     letter-spacing: 0.03em;
 }
 
@@ -83,7 +83,7 @@ a {
 nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.02em;
 }
 
@@ -96,15 +96,14 @@ h1 {
     color: var(--color-white);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.37em;
     /* text-align: center; */
     letter-spacing: 0.06em;
 }
 
 h2 {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17em;
     /* text-align: center; */
     letter-spacing: 0.03em;
 }
@@ -112,13 +111,12 @@ h2 {
 .order-btn {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875em;
 }
 
 .about h3 {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -126,14 +124,14 @@ h2 {
 .about p {
     color: var(--font-secondary-color);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71em;
     letter-spacing: 0.03em;
 }
 
 .team h3 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em;
     /* text-align: center; */
     letter-spacing: 0.03em;
 }
@@ -141,7 +139,7 @@ h2 {
 .team p {
     color: var(--font-secondary-color);
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em;
     /* text-align: center; */
     letter-spacing: 0.03em;
 }
@@ -154,26 +152,24 @@ address {
     color: var(--color-white);
 }
 
-/* Font sizes and weight - PORTFOLIO*/
+/* ===================================== Font sizes and weight - PORTFOLIO */
 
 .filter-btn {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625em;
     /* text-align: center; */
     letter-spacing: 0.03em;
 }
 
 .portfolio h3 {
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2em;
     letter-spacing: 0.06em;
 }
 
 .portfolio p {
     color: var(--font-secondary-color);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875em;
     letter-spacing: 0.03em;
 }
