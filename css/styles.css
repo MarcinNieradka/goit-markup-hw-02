@@ -56,10 +56,10 @@ body {
   color: var(--font-hover-link-color);
 }
 
-/* ===================================== Font sizes and weight */
+/* ===================================== Font colors, sizes and weight */
 
-.webstudio {
-  color: var(--font-hover-link-color);
+.logo-placeholder {
+  color: var(--color-black);
   font-family: "Raleway";
   font-style: normal;
   /* font-weight: 700; - only this weight is loaded with Google Fonts, therefore there is no need to specify it*/
@@ -68,12 +68,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.studio-span-up {
-  color: var(--color-black);
+.logo-down {
+  color: var(--color-white);
 }
 
-.studio-span-dwn {
-  color: var(--color-white);
+.logo-span {
+  color: var(--font-hover-link-color);
 }
 
 .navigation {
@@ -152,7 +152,7 @@ body {
   color: var(--color-white);
 }
 
-/* ===================================== Font sizes and weight - PORTFOLIO */
+/* ===================================== Font colors, sizes and weight - PORTFOLIO */
 
 .filter-btn {
   font-size: 16px;
